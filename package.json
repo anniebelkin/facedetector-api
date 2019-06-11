@@ -1,0 +1,24 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Annie Belkin <anniebelkin97@gmail.com> (https://amplace.co.il/)",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "clarifai": "2.9.0",
+    "cors": "2.8.5",
+    "express": "^4.16.2",
+    "knex": "0.17.5",
+    "pg": "7.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.7"
+  }
+}
